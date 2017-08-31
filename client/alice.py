@@ -38,7 +38,7 @@ if __name__ == '__main__':
     client.on_message = on_message
 
     try:
-        client.connect("127.0.0.1", 1883, 60)
+        client.connect("139.199.158.201", 1883, 60)
 
         t = Thread(target=client.loop_forever)
         t.setDaemon(True)
