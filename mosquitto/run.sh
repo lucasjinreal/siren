@@ -1,1 +1,1 @@
-./mosquitto_macos  -c mosquitto.conf -d
+./mosquitto  -c mosquitto.conf -d
